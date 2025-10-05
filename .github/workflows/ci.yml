@@ -1,0 +1,18 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Git version
+        run: git --version
+      - name: Basic checks
+        run: |
+          echo "Repo OK"
+          test -f README.md

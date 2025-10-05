@@ -1,4 +1,4 @@
-# Notas de aprendizaje — Daniel
+# Notas de aprendizaje —camilo
 
 Progreso:
 - [ ] 00 Instalación y config
